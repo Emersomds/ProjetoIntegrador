@@ -1,0 +1,18 @@
+use databasepi;
+
+create table cliente(
+ id int primary key auto_increment,
+ nome varchar(45),
+ telefone varchar(14),
+ cpf varchar(11),
+ endereço varchar(100),
+ cidade varchar(40),
+ uf varchar(4),
+ cep varchar(10),
+ ativo integer
+);
+
+
+
+
+select * from cliente;
